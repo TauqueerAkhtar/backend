@@ -193,7 +193,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'userauths.User'
 
 # Site URL
-SITE_URL = env("SITE_URL")
+#SITE_URL = env("SITE_URL")
+SITE_URL = "https://djangons-g6apfrhbh8argvft.centralindia-01.azurewebsites.net"
+
 
 # # Stripe API Keys
 # STRIPE_PUBLIC_KEY = env("STRIPE_PUBLIC_KEY")
